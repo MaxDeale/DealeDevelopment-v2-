@@ -29,9 +29,29 @@
   border-radius: 10px;
 }
 
+.btn-light:hover {
+  border: 2px solid yellow;
+  color: yellow !important;
+
+}
+
 .btn-dark {
   color: #d2d0fe;
   background-color: #170a19;
+
+}
+
+.contactIcon {
+  color: orangered;
+}
+
+.contactIcon:hover {
+  color: #fdd365;
+}
+
+.btn-dark:hover {
+  border: 2px solid yellow;
+  color: yellow !important;
 }
 
 button[class^='btn-']:hover,
