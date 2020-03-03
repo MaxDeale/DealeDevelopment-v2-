@@ -140,6 +140,7 @@ input[class^='btn-']:hover {
   letter-spacing: 3px;
   font-style: italic;
   font-size: 18px !important;
+  color: orangered;
 }
 
 #hello {
