@@ -220,7 +220,7 @@ input[class^='btn-']:hover {
   width: 100%;
   line-height: 0;
   height: 100%;
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 .item-text {
