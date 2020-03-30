@@ -638,6 +638,7 @@ img {
   line-height: 20px;
   text-align: center;
   padding: 0.5rem;
+  color: orangered;
 }
 
 #main-footer .footer-content .social .fab:hover {
