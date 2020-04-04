@@ -306,6 +306,10 @@ img {
   transition: all ease-in-out 1.4s;
 }
 
+#code {
+  color: yellow;
+}
+
 #logo:hover {
   transform: translateX(20px);
   border: 10px solid #ed0cef;
@@ -349,7 +353,7 @@ img {
 #header-home {
   /* background: #170a19; */
   display: block;
-  height: 100vh;
+  height: 1100px;
   color: white;
   background-image: url("https://images.unsplash.com/photo-1566796215362-7f6bd862ea82?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80");
   background-attachment: fixed;
