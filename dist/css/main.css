@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Bhaina+2|Inder|Sniglet&display=swap");
+
 .container {
   max-width: 1280px;
   padding: 0 1.5rem;
@@ -14,7 +16,6 @@
   padding: 0.8rem 2rem;
   transition: all 0.5s;
   cursor: pointer;
-
 }
 
 .btn-main {
@@ -32,13 +33,11 @@
 .btn-light:hover {
   border: 2px solid yellow;
   color: yellow !important;
-
 }
 
 .btn-dark {
   color: #d2d0fe;
   background-color: #170a19;
-
 }
 
 .contactIcon {
@@ -54,9 +53,9 @@
   color: yellow !important;
 }
 
-button[class^='btn-']:hover,
-a[class^='btn-']:hover,
-input[class^='btn-']:hover {
+button[class^="btn-"]:hover,
+a[class^="btn-"]:hover,
+input[class^="btn-"]:hover {
   background-color: #ed0cef;
   color: #d2d0fe;
 }
@@ -128,11 +127,23 @@ input[class^='btn-']:hover {
 }
 
 .bottom-line {
-  height: 2px;
+  height: 12px;
+  border: 2px solid yellow;
   width: 3rem;
   background: #ed0cef;
   display: block;
   margin: 0 auto 1rem auto;
+  transition: all 1s;
+}
+
+.bottom-line:hover {
+  height: 12px;
+  border: 2px solid yellow;
+  width: 3rem;
+  background: #ed0cef;
+  display: block;
+  margin: 0 auto 1rem auto;
+  transform: rotate(360deg);
 }
 
 #figure {
@@ -168,11 +179,10 @@ input[class^='btn-']:hover {
   position: relative;
   background: #fdd365;
   overflow: hidden;
-
 }
 
 .item::after {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   background: inherit;
@@ -207,7 +217,7 @@ input[class^='btn-']:hover {
 }
 
 .item-image:before {
-  content: '';
+  content: "";
   display: block;
   padding-top: 75%;
   overflow: hidden;
@@ -234,7 +244,8 @@ input[class^='btn-']:hover {
   z-index: 1;
   color: black;
   transform: translateY(-20%);
-  transition: opacity 500ms cubic-bezier(0.2, 1, 0.3, 1), transform 500ms cubic-bezier(0.2, 1, 0.3, 1);
+  transition: opacity 500ms cubic-bezier(0.2, 1, 0.3, 1),
+    transform 500ms cubic-bezier(0.2, 1, 0.3, 1);
   transition-delay: 300ms;
 }
 
@@ -266,7 +277,7 @@ input[class^='btn-']:hover {
 }
 
 body {
-  font-family: "dosis", sans-serif;
+  font-family: "sniglet", sans-serif;
   line-height: 1.6;
 }
 
@@ -303,7 +314,7 @@ img {
   margin-top: 30px;
   margin-bottom: 30px;
   border-radius: 50%;
-  transition: all ease-in-out 1.4s;
+  transition: all ease-in-out 2s;
 }
 
 #code {
@@ -311,9 +322,8 @@ img {
 }
 
 #logo:hover {
-  transform: translateX(20px);
+  scale: (3);
   border: 10px solid #ed0cef;
-  transform: translateX(-20px);
 }
 
 #main-nav {
@@ -475,8 +485,9 @@ img {
 
 #about-a .about-info {
   display: grid;
-  grid-template-areas: 'bioimage bio bio'
-    'aw1 aw2 aw3';
+  grid-template-areas:
+    "bioimage bio bio"
+    "aw1 aw2 aw3";
   grid-gap: 1.2rem;
 }
 
@@ -546,6 +557,10 @@ img {
   border: 2px solid #170a19;
 }
 
+#about-d {
+  background: #fdd365;
+}
+
 #about-d .testimonials {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -562,6 +577,7 @@ img {
 #about-d .testimonials p {
   border: 1px solid #ccc;
   border-radius: 5px;
+  background: wheat;
   padding: 0.5rem;
 }
 
@@ -574,9 +590,10 @@ img {
 
 #contact-a .text-fields {
   display: grid;
-  grid-template-areas: 'name email'
-    'subject phone'
-    'message message';
+  grid-template-areas:
+    "name email"
+    "subject phone"
+    "message message";
   grid-gap: 1.2rem;
   margin-bottom: 1.2rem;
 }
@@ -606,7 +623,7 @@ img {
   padding: 0.5rem 1rem;
 }
 
-#contact-a button[type='submit'] {
+#contact-a button[type="submit"] {
   width: 50%;
 }
 
@@ -714,6 +731,12 @@ img {
     padding-bottom: 1rem;
   }
 
+  .servs {
+    background: black !important;
+    border: 2px solid black;
+    border-radius: 50%;
+  }
+
   #home-a .specials div:last-child {
     border: none;
     padding-bottom: 0;
@@ -740,7 +763,7 @@ img {
   }
 
   #about-a .about-info {
-    grid-template-areas: "bioimage""bio""aw1""aw2""aw3";
+    grid-template-areas: "bioimage" "bio" "aw1" "aw2" "aw3";
   }
 
   #about-c {
@@ -748,11 +771,12 @@ img {
   }
 
   #contact-a .text-fields {
-    grid-template-areas: 'name'
-      'subject'
-      'email'
-      'phone'
-      'message';
+    grid-template-areas:
+      "name"
+      "subject"
+      "email"
+      "phone"
+      "message";
   }
 
   #main-footer {
