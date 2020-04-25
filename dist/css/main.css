@@ -8,6 +8,15 @@
   /* background-image: url(""); */
 }
 
+#vidCont{
+  
+}
+
+#vid{
+  width:100%;
+  z-index: -11;
+}
+
 .btn-main,
 .btn-light,
 .btn-dark {
@@ -340,20 +349,32 @@ img {
 #main-nav li {
   padding: 1rem 1.5rem;
   justify-content: center;
+
   font-size: 1.4rem;
+  border-radius: 20px;
+  transition: all 0.3s cubic-bezier(0.9225, 0.05, 0.795, 0.035);
 }
 
+#main-nav li:hover {
+  padding: 1rem 1.5rem;
+  justify-content: center;
+  background: #ed0cef;
+  font-size: 1.4rem;
+  border: 3px solid #fdd365;
+  border-radius: 20px;
+}
 #main-nav a {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
-  border-bottom: 3px transparent solid;
+
   padding-bottom: 0.5remm;
   transition: border-color 0.5s;
 }
 
 #main-nav a:hover {
-  border-color: #ccc;
+  color: black;
+  border-color: #fdd365;
 }
 
 #main-nav a.current {
