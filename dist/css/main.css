@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Baloo+Bhaina+2|Inder|Sniglet&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Pacifico&display=swap");
 
 .container {
   max-width: 1280px;
@@ -8,12 +9,11 @@
   /* background-image: url(""); */
 }
 
-#vidCont{
-  
+#vidCont {
 }
 
-#vid{
-  width:100%;
+#vid {
+  width: 100%;
   z-index: -11;
 }
 
@@ -169,12 +169,14 @@ input[class^="btn-"]:hover {
 }
 
 .section-title {
-  font-size: 2rem;
+  font-size: 3rem;
+  color: #333;
   display: block;
+font-style: italic;
+  font-family: "pacifico";
   padding-bottom: 0.5rem;
   text-align: center;
   font-weight: 100;
-  text-transform: uppercase;
   letter-spacing: 3px;
 }
 
@@ -305,12 +307,6 @@ h1 {
 
 h1 span {
   color: #ed0cef;
-}
-
-h2,
-h3,
-h4 {
-  text-transform: uppercase;
 }
 
 img {
