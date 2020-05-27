@@ -274,6 +274,12 @@ input[class^="btn-"]:hover {
   margin: 5px 0 0 0;
   text-decoration: none;
   color: white !important;
+  transition: all 1.5s cubic-bezier(0.55, 0.755, 0.675, 0.19);
+}
+
+.item-text-title:hover {
+  color: rgb(199, 46, 7) !important;
+  transform: scale(1.1);
 }
 
 .item-text-category {
@@ -379,8 +385,40 @@ img {
 }
 
 #workBtn:hover {
-  transform: scale(1.4);
+  transform: scale(1.2);
   margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.show {
+  display: flex !important;
+  transition: all 2s;
+}
+
+#eye {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+  margin: 0.2rem !important;
+  color: yellow;
+  display: none;
+}
+
+#smileBox {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+
+  display: none;
+}
+
+#smile {
+  width: 250px;
+  height: 150px;
+  border-radius: 30%;
+  border: 2px solid black;
 }
 
 #header-home {
